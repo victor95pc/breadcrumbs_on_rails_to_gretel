@@ -1,0 +1,3 @@
+module BreadcrumbsOnRailsToGretel
+	require "breadcrumbs_on_rails_to_gretel/railtie.rb"
+end
