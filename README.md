@@ -30,7 +30,7 @@ And then execute:
 
 - Rails 3.x or Rails 4.x
 
-- Ruby >= 1.9.3
+- Ruby >= 2.0.0
 
 Please note 
 
