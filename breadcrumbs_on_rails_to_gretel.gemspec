@@ -15,12 +15,15 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = Dir['lib/**/*.rb'] + Dir['lib/tasks/*.rake']
-  spec.test_files    = spec.files.grep(%r{^spec/})
+  spec.test_files    = Dir['spec/*_spec.rb']
   spec.require_paths = ['lib', 'lib/tasks']
 
   spec.required_ruby_version = ">= 2.0.0"
   spec.add_dependency "rails", ">= 3.0.0"
-  spec.add_development_dependency "ruby2ruby"
-  spec.add_development_dependency "bundler", "~> 1.8"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "ruby2ruby"
+  spec.add_dependency "ruby_parser"
+
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rake"
 end
