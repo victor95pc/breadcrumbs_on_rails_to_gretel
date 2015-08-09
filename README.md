@@ -5,7 +5,7 @@ This gem is a simple and smart way to change all breadcrumbs of your project fro
 **Gem is not ready for prodution yet ; )**
 
 
-breadcrumb_on_rails is a really simple tool for managing breadcrumbs, but writing breadcrumbs´s logic inside the controllers seem awful for me and should be in the view, I was having a lot of problems managing the visibility of breadcrumbs for specific users, when I realize the breadcrumb_on_rails was not a good choice it was too late, there is a lot breadcrumbs in my applications and I need a kind of tool to make a fully conversion of breadcrumb manager, the main problem is breadcrumb_on_rails and gretel is very different, gretel organize breadcrumbs inside a config folder and breadcrumb_on_rails inside the controller.
+breadcrumb_on_rails is a really simple tool for managing breadcrumbs, but writing breadcrumbs´s logics inside the controllers seem awful for me and should be in the view, I was having a lot of problems managing the visibility of breadcrumbs for specific users, when I realized breadcrumb_on_rails was not a good choice it was too late, there was a lot breadcrumbs in my applications and I need a tool to make a full conversion of breadcrumb manager. The main problem is breadcrumb_on_rails and gretel are very different, gretel organize breadcrumbs inside a config folder and breadcrumb_on_rails does that inside the controllers.
 
 **Sorry for the bad English : )**
 
