@@ -36,7 +36,7 @@ module BreadcrumbsOnRailsToGretel
 		end
 
 		def search_on_class_methods
-			controller_sexp.find_nodes(:call).select { |sexp| [:add_breadcrumb, BEFORE].include? method_name(sexp) }.each do |sexp|
+			controller_sexp.find_nodes(:call).select { |sexp| %i(add_breadcrumb before_action before_filter).include? method_name(sexp) }.each do |sexp|
 				
 				options = get_callback_options(sexp)
 
